@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Fanful</string>
+	<string>Fanful12</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -37,6 +37,21 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SFUIText-Bold.otf</string>
+		<string>SFUIText-Heavy.otf</string>
+		<string>SFUIText-Light.otf</string>
+		<string>SFUIText-Medium.otf</string>
+		<string>SFUIText-Regular.otf</string>
+		<string>SFUIText-Semibold.otf</string>
+		<string>BebasNeue_400Regular.ttf</string>
+		<string>Itim_400Regular.ttf</string>
+		<string>JosefinSans_400Regular.ttf</string>
+		<string>Montserrat_400Regular.ttf</string>
+		<string>Pacifico_400Regular.ttf</string>
+		<string>Roboto_400Regular.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

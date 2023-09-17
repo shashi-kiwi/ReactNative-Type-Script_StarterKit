@@ -11,14 +11,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		52E5DF769E71F29266222611 /* libPods-Fanful.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EEE639306D64F39A135560E /* libPods-Fanful.a */; };
 		551EC0F8FF4C2E88DCE9907C /* libPods-Fanful-FanfulTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCBAD696A8A026B402593C3 /* libPods-Fanful-FanfulTests.a */; };
 		7C40F2C3D7F6F07609679970 /* libPods-Fanful.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EEE639306D64F39A135560E /* libPods-Fanful.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D67696192AB7251700FF19DF /* MyTeam.plist in Resources */ = {isa = PBXBuildFile; fileRef = D67696182AB7251700FF19DF /* MyTeam.plist */; };
 		D6C873D62AB468AE00A5367E /* WhiteLabelConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C873D52AB468AE00A5367E /* WhiteLabelConfig.m */; };
 		D6E68B112AB46BF400BDAC97 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		D6E68B132AB46BF400BDAC97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		D6E68B152AB46BF400BDAC97 /* libPods-Fanful.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EEE639306D64F39A135560E /* libPods-Fanful.a */; };
-		D6E68B212AB46D7900BDAC97 /* MyTeam.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E68B202AB46BF400BDAC97 /* MyTeam.plist */; };
 		D6E68B242AB46DEE00BDAC97 /* WhiteLabelConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E68B232AB46DEE00BDAC97 /* WhiteLabelConfig.m */; };
 		D6E68B262AB46E2100BDAC97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E68B252AB46E2100BDAC97 /* Images.xcassets */; };
 		D6E68B282AB4720800BDAC97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E68B272AB4720800BDAC97 /* LaunchScreen.storyboard */; };
@@ -45,16 +45,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Fanful/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Fanful/main.m; sourceTree = "<group>"; };
-		31CBD5B91835A86F38E462D0 /* Pods-Fanful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanful.debug.xcconfig"; path = "Target Support Files/Pods-Fanful/Pods-Fanful.debug.xcconfig"; sourceTree = "<group>"; };
+		1805301DF5FFD8A0695AD194 /* Pods-Fanful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanful.debug.xcconfig"; path = "Target Support Files/Pods-Fanful/Pods-Fanful.debug.xcconfig"; sourceTree = "<group>"; };
 		63E8715C604C46BE91C5720D /* Pods-Fanful-FanfulTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanful-FanfulTests.release.xcconfig"; path = "Target Support Files/Pods-Fanful-FanfulTests/Pods-Fanful-FanfulTests.release.xcconfig"; sourceTree = "<group>"; };
 		7CCBAD696A8A026B402593C3 /* libPods-Fanful-FanfulTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanful-FanfulTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EEE639306D64F39A135560E /* libPods-Fanful.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanful.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF4BC62DF02267059494E8E3 /* Pods-Fanful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanful.release.xcconfig"; path = "Target Support Files/Pods-Fanful/Pods-Fanful.release.xcconfig"; sourceTree = "<group>"; };
+		C60C7CC61E4E54A547E6C099 /* Pods-Fanful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanful.release.xcconfig"; path = "Target Support Files/Pods-Fanful/Pods-Fanful.release.xcconfig"; sourceTree = "<group>"; };
+		D67696182AB7251700FF19DF /* MyTeam.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MyTeam.plist; sourceTree = SOURCE_ROOT; };
 		D6C873D42AB4687C00A5367E /* WhiteLabelConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteLabelConfig.h; sourceTree = "<group>"; };
 		D6C873D52AB468AE00A5367E /* WhiteLabelConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteLabelConfig.m; sourceTree = "<group>"; };
 		D6E68B1F2AB46BF400BDAC97 /* MyTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6E68B202AB46BF400BDAC97 /* MyTeam.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MyTeam.plist; path = "/Users/kiwitech/Documents/Projects/Fanful-New/ios/MyTeam.plist"; sourceTree = "<absolute>"; };
 		D6E68B232AB46DEE00BDAC97 /* WhiteLabelConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteLabelConfig.m; sourceTree = "<group>"; };
 		D6E68B252AB46E2100BDAC97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D6E68B272AB4720800BDAC97 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C40F2C3D7F6F07609679970 /* libPods-Fanful.a in Frameworks */,
+				52E5DF769E71F29266222611 /* libPods-Fanful.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6E68B152AB46BF400BDAC97 /* libPods-Fanful.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,10 +165,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				31CBD5B91835A86F38E462D0 /* Pods-Fanful.debug.xcconfig */,
-				AF4BC62DF02267059494E8E3 /* Pods-Fanful.release.xcconfig */,
 				04CF4FC8D4804D7540BBAA3D /* Pods-Fanful-FanfulTests.debug.xcconfig */,
 				63E8715C604C46BE91C5720D /* Pods-Fanful-FanfulTests.release.xcconfig */,
+				1805301DF5FFD8A0695AD194 /* Pods-Fanful.debug.xcconfig */,
+				C60C7CC61E4E54A547E6C099 /* Pods-Fanful.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 		D6E68B222AB46DB700BDAC97 /* MyTeamWhiteLabel */ = {
 			isa = PBXGroup;
 			children = (
-				D6E68B202AB46BF400BDAC97 /* MyTeam.plist */,
+				D67696182AB7251700FF19DF /* MyTeam.plist */,
 				D6E68B232AB46DEE00BDAC97 /* WhiteLabelConfig.m */,
 				D6E68B252AB46E2100BDAC97 /* Images.xcassets */,
 				D6E68B272AB4720800BDAC97 /* LaunchScreen.storyboard */,
@@ -244,14 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6E68B1C2AB46BF400BDAC97 /* Build configuration list for PBXNativeTarget "MyTeam" */;
 			buildPhases = (
-				D6E68B0E2AB46BF400BDAC97 /* [CP] Check Pods Manifest.lock */,
 				D6E68B0F2AB46BF400BDAC97 /* Start Packager */,
 				D6E68B102AB46BF400BDAC97 /* Sources */,
 				D6E68B142AB46BF400BDAC97 /* Frameworks */,
 				D6E68B162AB46BF400BDAC97 /* Resources */,
 				D6E68B192AB46BF400BDAC97 /* Bundle React Native code and images */,
-				D6E68B1A2AB46BF400BDAC97 /* [CP] Embed Pods Frameworks */,
-				D6E68B1B2AB46BF400BDAC97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -322,7 +319,7 @@
 			files = (
 				D6E68B282AB4720800BDAC97 /* LaunchScreen.storyboard in Resources */,
 				D6E68B262AB46E2100BDAC97 /* Images.xcassets in Resources */,
-				D6E68B212AB46D7900BDAC97 /* MyTeam.plist in Resources */,
+				D67696192AB7251700FF19DF /* MyTeam.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,28 +437,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fanful/Pods-Fanful-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D6E68B0E2AB46BF400BDAC97 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Fanful-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D6E68B0F2AB46BF400BDAC97 /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,40 +471,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
-		};
-		D6E68B1A2AB46BF400BDAC97 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fanful/Pods-Fanful-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fanful/Pods-Fanful-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fanful/Pods-Fanful-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D6E68B1B2AB46BF400BDAC97 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fanful/Pods-Fanful-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fanful/Pods-Fanful-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fanful/Pods-Fanful-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		F2EFBF96EDF6725070E74635 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -662,7 +603,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31CBD5B91835A86F38E462D0 /* Pods-Fanful.debug.xcconfig */;
+			baseConfigurationReference = 1805301DF5FFD8A0695AD194 /* Pods-Fanful.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +636,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF4BC62DF02267059494E8E3 /* Pods-Fanful.release.xcconfig */;
+			baseConfigurationReference = C60C7CC61E4E54A547E6C099 /* Pods-Fanful.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -865,7 +806,6 @@
 		};
 		D6E68B1D2AB46BF400BDAC97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31CBD5B91835A86F38E462D0 /* Pods-Fanful.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -899,7 +839,6 @@
 		};
 		D6E68B1E2AB46BF400BDAC97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF4BC62DF02267059494E8E3 /* Pods-Fanful.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

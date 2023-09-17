@@ -3,6 +3,7 @@ import React from "react";
 import { IColorTheme } from "../types";
 import { ThemeContext } from "../contextAPI/themeContext";
 import WhiteLabelConfig from "../../whitelabel/WhiteLabelConfig";
+import { FONTS } from "../constants";
 
 type Props = {};
 const welcome = (props: Props) => {
@@ -18,7 +19,7 @@ const welcome = (props: Props) => {
             </Text>
         </View>
       </View>
-      <Text style={styles.title}>welcome</Text>
+      <Text style={styles.title}>Whereas disregard and contempt for human rights have resulted</Text>
     </View>
   );
 };
@@ -31,8 +32,8 @@ const welcomeStyles = (theme: IColorTheme) =>
       marginTop: 10,
       paddingHorizontal: 16,
       color: theme.color,
-      fontSize: 24,
-      fontWeight: "bold",
+       fontSize: 24,
+       fontFamily:FONTS.BebasNeue_400Regular
     },
     main: {
        flex: 1,
@@ -54,6 +55,6 @@ const welcomeStyles = (theme: IColorTheme) =>
         paddingHorizontal: 16,
         color: theme.color,
         fontSize: 24,
-        fontWeight: "bold",
-    }
+        fontFamily:FONTS.SF_SEMIBOLD
+      }
   });
