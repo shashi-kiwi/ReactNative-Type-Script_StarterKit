@@ -3,7 +3,7 @@ import React from "react";
 import { IColorTheme } from "../types";
 import { ThemeContext } from "../contextAPI/themeContext";
 import WhiteLabelConfig from "../../whitelabel/WhiteLabelConfig";
-import { FONTS } from "../constants";
+import { FixedValue, FONTS } from "../constants";
 
 type Props = {};
 const welcome = (props: Props) => {
@@ -33,7 +33,7 @@ const welcomeStyles = (theme: IColorTheme) =>
       paddingHorizontal: 16,
       color: theme.color,
        fontSize: 24,
-       fontFamily:FONTS.BebasNeue_400Regular
+       fontFamily:FONTS.Bebas_Neue
     },
     main: {
        flex: 1,
@@ -51,10 +51,10 @@ const welcomeStyles = (theme: IColorTheme) =>
       alignItems: "center",
     },
     greetingText:{
-        marginTop: 10,
+        marginTop: FixedValue.CONSTANT_VALUE_012,
         paddingHorizontal: 16,
         color: theme.color,
         fontSize: 24,
-      //  fontFamily:FONTS.Bebas_Neue
+       fontFamily:FONTS.Bebas_Neue
       }
   });

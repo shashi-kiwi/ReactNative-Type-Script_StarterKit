@@ -4,7 +4,7 @@
  *
  * @format
  */
-import React, { Component } from "react";
+import React from "react";
 import { ThemeProvider } from "./src/contextAPI/themeContext";
 import Welcome from "./src/screens/Welcome";
 
