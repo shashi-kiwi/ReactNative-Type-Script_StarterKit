@@ -55,6 +55,6 @@ const welcomeStyles = (theme: IColorTheme) =>
         paddingHorizontal: 16,
         color: theme.color,
         fontSize: 24,
-        fontFamily:FONTS.SF_SEMIBOLD
+      //  fontFamily:FONTS.Bebas_Neue
       }
   });

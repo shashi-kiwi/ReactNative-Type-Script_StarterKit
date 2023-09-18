@@ -9,6 +9,6 @@ export const FONTS = {
     Montserrat_400Regular: 'Montserrat_400Regular',
     Roboto_400Regular: 'Roboto_400Regular',
     Pacifico_400Regular: 'Pacifico_400Regular',
-    BebasNeue_400Regular: 'BebasNeue_400Regular',
+    Bebas_Neue: 'Bebas Neue',
     Itim_400Regular: 'Itim_400Regular',
   };
